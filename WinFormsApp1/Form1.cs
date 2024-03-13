@@ -22,14 +22,16 @@ namespace WinFormsApp1
 
         }
 
-        private void button1_Click(object sender, EventArgs e)
-        {
-            MessageBox.Show("Clicou no botão novo");
-        }
+
 
         private void btnSalvar_Click(object sender, EventArgs e)
         {
-         
+
+        }
+
+        private void btnNovo_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Clicou no botão novo");
         }
     }
 }
